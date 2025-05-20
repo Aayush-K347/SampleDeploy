@@ -367,7 +367,7 @@ def safe_visualize(data_dict, key):
 # Main application
 def main():
     # Header
-    st.markdown('<h1 class="main-header">📚 OpenAlex Scholarly Dashboard</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">📚 Scholarly Dashboard</h1>', unsafe_allow_html=True)
     
     # Sidebar for inputs
     st.sidebar.title("Query Settings")
